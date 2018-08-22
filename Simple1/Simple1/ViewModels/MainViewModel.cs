@@ -40,11 +40,6 @@ namespace Simple1.ViewModels
         {
             if (!(obj is string number)) return;
 
-            if (string.IsNullOrEmpty(InputNumbers))
-            {
-                
-            }
-            
             var num = int.Parse(InputNumbers.Replace(",", ""));
 
             //backspace키는 shell에서 사용하고 있기 때문에 사용이 않되는 듯..
